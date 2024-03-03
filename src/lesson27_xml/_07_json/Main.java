@@ -4,9 +4,11 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import lesson27_xml._02_base_XML.XMLCat;
 
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class Main {
@@ -22,7 +24,7 @@ public class Main {
 //                new XMLCat(4, "Pushok", 5)
 //        );
 //
-//        var jsonStr = gson.toJson(cats);
+//        var jsonStr = GSON.toJson(cats);
 //        var os = new FileOutputStream("src/lesson27_xml/_07_json/cats.json");
 //        os.write(jsonStr.getBytes(StandardCharsets.UTF_8));
 
