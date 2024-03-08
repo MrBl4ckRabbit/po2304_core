@@ -1,4 +1,4 @@
-package lesson28.main;
+package lesson28_sql;
 
 public class Main {
     public static void main(String[] args) {
